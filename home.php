@@ -33,3 +33,11 @@ public function edit_produk($id)
         }
     } 
 }
+?>
+
+
+<?php
+// menambahkan route edit_produk
+
+Route::post('/api_simpan_edit_produk', [InputProdukController::class, 'api_simpan_edit_produk']);
+
